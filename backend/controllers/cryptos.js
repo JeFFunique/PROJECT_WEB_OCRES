@@ -26,7 +26,7 @@ const postCrypto = async (req, res) => {
     try {
         const { title } = req.body
         const { price } = req.body
-        const { symbol } = req.symbol
+        const { symbol } = req.body
         const newCrypto = new Crypt({
             title: title,
             price: price,
@@ -46,11 +46,13 @@ const updateCrypto = async (req, res) => {
     const cryptoId = req.params.cryptoId;
     const { title } = req.body
     const { price } = req.body
+    const {symbol } = req.body
     try {
         const crypto = await Crypt.updateOne({ _id: cryptoId }, {
             $set: {
                 title: title,
-                price: price
+                price: price,
+                symbol: symbol
             }
         })
         const updatedCryptoData = await Crypt.find({ _id: cryptoId });
