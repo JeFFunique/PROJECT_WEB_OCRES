@@ -13,7 +13,7 @@ Ce projet est un dashboard de cryptomonnaies les affichant sous la forme de diff
 
 ### Affichage widgets cryptos
 
-On peut voir ici un ensemble de widgets qui affichent les données de différentes cryptos.
+On peut voir ici un ensemble de widgets qui affichent les données de différentes cryptos avec possibilité d'en rechercher une particulière.
 ![image](https://github.com/user-attachments/assets/55b3309e-03f9-4268-8ca9-2b1385c99613)
 
 ### Graphique temps réel
