@@ -9,6 +9,12 @@ Ce projet est un dashboard de cryptomonnaies les affichant sous la forme de diff
 - Rechercher une crypto particulière
 - Sélectionner une crypto et voir son cours sur les 6 derniers mois sous la forme d'un graphique en temps réel
 
+## Technologies
+- ReactJS
+- NodeJS
+- ExpressJS
+- MongoDB(database)
+
 ## Utilisation
 
 ### Affichage widgets cryptos
