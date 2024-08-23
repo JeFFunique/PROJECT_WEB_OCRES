@@ -1,22 +1,29 @@
-# Projet de fin de semestre
+# Dashboard de cryptomonnaies
 
-A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
+## Description
+Ce projet est un dashboard de cryptomonnaies les affichant sous la forme de différents widgets et graphiques avec une actualisation temps réel.
 
-<p align="center">
- <a href="https://gitlab.com/Adrien_Kourganoff/instructions_web_ocres_ing4/-/blob/master/README.md">Règles pour le semestre</a>
-</p>
+## Fonctionnalités
 
-## Introduction
+- Affichage d'un ensemble de cryptos avec données temps réel
+- Rechercher une crypto particulière
+- Sélectionner une crypto et voir son cours sur les 6 derniers mois sous la forme d'un graphique en temps réel
 
-Ce repo git contient deux repertoires. L'un concerne la partie backend et l'autre la partie frontend.
+## Utilisation
 
-Les deux repertoires ont été initialisé pour vous aider à démarrer le projet dans les meilleures conditions.
+### Affichage widgets cryptos
 
-Chacun de ces repertoires contient un README.md qui vous pouvez vous approprier. Nous vous encourageons à le faire en y mettant toute les informations nécessaires à la compréhension de votre projet
+On peut voir ici un ensemble de widgets qui affichent les données de différentes cryptos.
+![image](https://github.com/user-attachments/assets/55b3309e-03f9-4268-8ca9-2b1385c99613)
 
-## Instructions
+### Graphique temps réel
+On peut voir ici qu'en sélectionnant une crypto, le cours de la crypto sélectionnée sur la dernière année apparaît graphiquement actualisable en temps réel pour le graphique de gauche. Pour celui de droite, on a juste stocké un ensemble de valeurs de cryptos dans une database et fait une répartition générale de la valeur des cryptos avec ces données. 
+![image](https://github.com/user-attachments/assets/f6ca213b-4f7e-43ff-ab4a-9e64538277fa)
 
-Les instructions sont à retrouver dans le pdf instruction.pdf.
 
-**Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
+
+
+
+
+
 
