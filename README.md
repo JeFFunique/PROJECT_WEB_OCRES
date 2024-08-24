@@ -20,11 +20,12 @@ Ce projet est un dashboard de cryptomonnaies les affichant sous la forme de diff
 ### Affichage widgets cryptos
 
 On peut voir ici un ensemble de widgets qui affichent les données de différentes cryptos avec possibilité d'en rechercher une particulière.
-![image](https://github.com/user-attachments/assets/55b3309e-03f9-4268-8ca9-2b1385c99613)
+![image](https://github.com/user-attachments/assets/f88f30bc-ea62-4ac9-967c-6247af4a223c)
 
 ### Graphique temps réel
 On peut voir ici qu'en sélectionnant une crypto, le cours de la crypto sélectionnée sur la dernière année apparaît graphiquement actualisable en temps réel pour le graphique de gauche. Pour celui de droite, on a juste stocké un ensemble de valeurs de cryptos dans une database MongoDB avec une api restful CRUD pour ajouter, supprimer, update ses données de crypto,etc.... et fait une répartition générale de la valeur des cryptos avec ces données. 
-![image](https://github.com/user-attachments/assets/f6ca213b-4f7e-43ff-ab4a-9e64538277fa)
+![image](https://github.com/user-attachments/assets/05dd3a76-6972-4d87-8956-2c5b2464e167)
+
 
 
 
